@@ -1,0 +1,31 @@
+{
+  "name": "component-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btaz21/component-registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btaz21/component-registration/issues"
+  },
+  "homepage": "https://github.com/btaz21/component-registration#readme",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.0",
+    "passport-local": "^1.0.0"
+  }
+}
